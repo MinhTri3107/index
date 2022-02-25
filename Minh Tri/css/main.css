@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+.frame
+{
+    width: 1000px;
+    height: 2800px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+.header
+{
+    width: 1000px;
+    height: 100px;
+    background-color:#175C7D;
+}
+.content1
+{
+    width: 1000px;
+    height: 670px;
+    background-color: darkgrey;
+    margin: 0 auto;
+}
+.content2
+{
+    width: 1000px;
+    height: 350px;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 0 auto;
+}
+.content3
+{
+    width: 1000px;
+    height: 250px;
+    background-color: dimgrey;
+}
+.footer
+{
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+}
+.logo 
+{
+    width: 200px;
+    height: 50px;
+    background-color: mediumblue;
+    margin:5px;
+    padding: 0;
+}
+.header ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li
+{
+    padding : 20px;
+    float: right;
+    position: relative;
+}
+
+.header ul li:hover
+{
+    background-color:darkgrey;
+}
+
+.header ul li a
+{
+    text-decoration: none;
+}
+ul li ul
+{
+    position: absolute;
+    width: 150px;
+    background-color:lightslategrey;
+    top:100px;
+    left: 0;
+    visibility: hidden;
+}
+ul li ul li
+{
+    width: 110px;
+    background-color: lightslategrey;
+}
+ul li:hover ul
+{
+    visibility: visible;
+}
+.vuong
+{
+    width: 200px;
+    height:200px;
+    background-color: #E0E0E0;
+    float:left;
+    border: 1px solid #175C7D;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.vuong6
+{
+    width: 400px;
+    height:300px;
+    background-color: #E0E0E0;
+    float:right;
+    border: 3px solid #175C7D;
+    margin: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.vuong7
+{
+    width: 400px;
+    height:300px;
+    background-color: none;
+    float:left;
+    border: 1px solid none;
+    margin: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+    .vuong4
+{
+    width: 800px;
+    height:250px;
+    background-color: none;
+    border: 1px solid none;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    top: -5px;     
+}   
+.vuong3
+{
+    width: 300px;
+    height:130px;
+    background-color: none;
+    border: 1px solid none;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    top: 0px; 
+    float : left;
+    text-align: center;
+}
+.vuong5
+{
+    width: 1000px;
+    height:400px;
+    background-color: none;
+    border: 1px solid none;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    top: -5px;     
+}
+.vuong8
+{
+    width: 400px;
+    height:300px;
+    background-color: #E0E0E0;
+    border: 3px solid #175C7D;
+    margin: 20px ;
+    float:right;
+    padding: 10px;
+    box-sizing: border-box;     
+}
+ .vuong9
+{
+    width: 900px;
+    height:250px;
+    background-color: none;
+    border: 1px solid none;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    top: -5px;     
+}    .vuong4
+{
+    width: 800px;
+    height:250px;
+    background-color: none;
+    border: 1px solid none;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    top: -5px;     
+}   
+.vuong img
+{
+    border-radius: 300px;
+}
+.vuong1
+{
+    width: 300px;
+    height:400px;
+    background-color:#E0E0E0;
+    float: left;
+    border: 3px solid #175C7D ;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+        
+}
+.vuong8
+{
+    width: 400px;
+    height:300px;
+    background-color:#E0E0E0;
+    float: right;
+    border: 3px solid #175C7D ;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+        
+}
+.vuong2
+{
+    width: 300px;
+    height:200px;
+    background-color: #E0E0E0;
+    float: left;
+    border: 1px solid #175C7D;
+    margin: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+        
+}
+
+.headline
+{
+    width: 300px;
+    height: 50px;
+    background-color: #A9A9A9;
+    text-align: center;
+    margin: 0 auto;
+    border: 3px #175C7D solid;
+}
+.vuong10
+{
+    width: 90px;
+    height:90px;
+    background-color: #E0E0E0;
+    border: 1px solid #175C7D;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.vuong11
+{
+    width: 300px;
+    height:400px;
+    background-color:none;
+    float: left;
+    border: 0px solid none ;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+.vuong11 a
+{
+    text-decoration: none;
+}
